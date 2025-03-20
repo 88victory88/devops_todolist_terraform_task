@@ -10,5 +10,5 @@ output "public_ip_id" {
 
 output "public_ip_fqdn" {
   description = "The DNS of the public IP"
-  value = azurerm_public_ip.pip.fqdn
+  value       = azurerm_public_ip.pip.fqdn
 }
